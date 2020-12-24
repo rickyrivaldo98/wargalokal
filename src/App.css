@@ -44,11 +44,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(0, 0, 0, 0.5) 0,
     rgba(0, 0, 0, 0.3) 50%,
     rgba(0, 0, 0, 0.1) 100%
-  );
+  ); */
 }
 
 .hero .container-fluid {
@@ -57,7 +57,7 @@
 
 .btn.bg-button {
   /* background: var(--lightblue); */
-  background: navy;
+  background: #181c28;
   border-radius: 15px;
   font-size: 30px;
   padding-top: 0px;
@@ -71,8 +71,17 @@
   margin-left: 20%;
 }
 
+.text-header4 {
+  font-size: 50px;
+  margin-left: 20%;
+}
+
 .text-header2 {
   font-size: 100px;
+}
+
+.text-header3 {
+  font-size: 60px;
 }
 
 .button-header {
@@ -96,4 +105,33 @@ button:hover {
 
 .konten2-detail {
   margin-top: 10%;
+}
+
+.konten3-detail {
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.program {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-program {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center !important;
+}
+
+.bg-program {
+  background-color: #181c28;
+}
+
+.footer {
+  background-color: #181c28;
 }
