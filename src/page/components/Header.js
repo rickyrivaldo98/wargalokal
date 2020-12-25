@@ -17,7 +17,7 @@ const Header = () => {
         <div className="container-fluid container-fluid-max">
           <div className="row">
             <div className="col-12 col-md-8 col-lg-6 col-xl-6">
-            {/* <img
+              {/* <img
                 src={rectangle1}
                 class="rounded mx-auto d-block"
                 style={{ width: "50%" }}
@@ -25,14 +25,17 @@ const Header = () => {
               <h1 className="text-white text-header">
                 <strong>WargaLokal</strong>
               </h1>
-              <div className="mt-3">
-                <button
+              <div className="mt-3 ">
+                {/* <button
                   href=""
                   className="btn bg-button text-white button-header"
                 >
                   Read More
-                </button>
-                <a href=""></a>
+                </button> */}
+                {/* <a href=""></a> */}
+                <h5 className="tagline text-white">
+                  Bergerak Wujudkan Desa Mandiri!
+                </h5>
               </div>
             </div>
           </div>

@@ -2,7 +2,6 @@ import React from "react";
 import bg1 from "../images/bg1.jpg";
 import rectangle2 from "../images/rectangle2.png";
 
-
 const Konten2 = () => {
   return (
     <>
@@ -22,7 +21,11 @@ const Konten2 = () => {
                 <strong>Connecting The Dots</strong>
               </h1>
               <div className="konten2-detail">
-                <h5>Penjelasan</h5>
+                <h5 className="text-white">
+                  Warga Lokal memiliki peran sebagai pengisi dari adanya
+                  kekosongan peran antara social capital dan economic capital
+                  untuk mewujudkan Desa Mandiri.
+                </h5>
               </div>
             </div>
           </div>

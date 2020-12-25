@@ -10,7 +10,12 @@ const Konten1 = () => {
                 <strong>Tentang Kami</strong>
               </h1>
               <div className="konten1-detail">
-                <h5>Penjelasan</h5>
+                <h5>
+                  Warga Lokal adalah sebuah platform Local Tourism yang
+                  bertujuan menjadi wadah penghubung bagi desa-desa di Jawa
+                  Tengah dalam pemenuhan kebutuhan dan jaringan kepada pihak
+                  luar.
+                </h5>
               </div>
             </div>
             <div className="col-12 col-md-4 col-lg-5 col-xl-5">

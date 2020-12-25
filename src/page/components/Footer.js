@@ -11,7 +11,7 @@ const Footer = () => {
                 <strong>Hubungi Kami</strong>
               </h1>
               <div className="text-white konten3-detail">
-                <h5>Penjelasan</h5>
+                <h5>IG: wargalokal.official</h5>
               </div>
             </div>
             <div className="col-12 col-md-4 col-lg-5 col-xl-5"></div>
