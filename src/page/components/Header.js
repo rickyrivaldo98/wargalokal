@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import bg2 from "../images/bg2.jpg";
 import rectangle1 from "../images/rectangle1.png";
+
 const Header = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Header = () => {
                 class="rounded mx-auto d-block"
                 style={{ width: "50%" }}
               /> */}
-              <h1 className="text-white text-header">
+              <h1 data-aos="fade-up" className="text-white text-header">
                 <strong>WargaLokal</strong>
               </h1>
               <div className="mt-3 ">
@@ -33,7 +34,7 @@ const Header = () => {
                   Read More
                 </button> */}
                 {/* <a href=""></a> */}
-                <h5 className="tagline text-white">
+                <h5 data-aos="fade-down" className="tagline text-white">
                   Bergerak Wujudkan Desa Mandiri!
                 </h5>
               </div>

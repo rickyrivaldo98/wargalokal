@@ -6,7 +6,10 @@ const Footer = () => {
       <section className="d-flex align-items-center position-relative footer">
         <div className="container-fluid container-fluid-max">
           <div className="row">
-            <div className="col-12 col-md-8 col-lg-7 col-xl-7 mt-5 mb-5">
+            <div
+              data-aos="zoom-in"
+              className="col-12 col-md-8 col-lg-7 col-xl-7 mt-5 mb-5"
+            >
               <h1 className="text-white text-header4 ">
                 <strong>Hubungi Kami</strong>
               </h1>

@@ -7,7 +7,7 @@ const Konten4 = () => {
         <div className="container-fluid container-fluid-max">
           <div className="row">
             <div className="col-12 col-md-8 col-lg-9 col-xl-9 mt-5 mb-5">
-              <h1 className="text-white cta text-dark">
+              <h1 data-aos="zoom-in" className="text-white cta text-dark">
                 <strong>
                   Gabung bersama kami, Bantu wujudkan desa mandiri
                 </strong>

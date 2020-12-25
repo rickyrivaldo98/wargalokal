@@ -1,10 +1,36 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+
+import {
+  Container,
+  Row,
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavbarToggler,
+  Collapse,
+  Input,
+} from "reactstrap";
 
 const NavbarLanding = () => {
+  const [collapsed, setCollapsed] = useState(true);
+  const toggleNavbar = () => setCollapsed(!collapsed);
+  const [scrolling, setScrolling] = useState(false);
+  const onScroll = () => {
+    if (window.scrollY >= 72) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  window.addEventListener("scroll", onScroll);
+
   return (
     <>
-      <header className="fixed-top page-header">
-        <nav className="navbar navbar-expand-lg  scroll">
+      {/* <header className="fixed-top page-header">
+        <nav className="navbar navbar-expand-lg scroll">
           <a className="navbar-brand" href="#">
             Warga Lokal
           </a>
@@ -44,7 +70,64 @@ const NavbarLanding = () => {
             </ul>
           </div>
         </nav>
-      </header>
+      </header> */}
+      <body
+        className={scrolling ? "position-relative scroll" : "position-relative"}
+      >
+        <header className="fixed-top page-header">
+          <Navbar className="scroll" id="navbar" dark expand="lg">
+            <NavbarBrand className="ml-3">
+              <NavLink
+                to="/"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                WargaLokal
+              </NavLink>
+            </NavbarBrand>
+            <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+            <Collapse isOpen={!collapsed} navbar>
+              <Nav className="ml-lg-5" navbar>
+                <NavItem>
+                  <NavLink
+                    to="/tentang"
+                    activeClassName="active"
+                    className="nav-link p-2"
+                  >
+                    Beranda
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    to="/artikel"
+                    activeClassName="active"
+                    className="nav-link p-2"
+                  >
+                    Tentang Kami
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    to="/pemesanan"
+                    activeClassName="active"
+                    className="nav-link p-2"
+                  >
+                    Program
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    to="/galeri"
+                    activeClassName="active"
+                    className="nav-link p-2"
+                  >
+                    Kontak
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </header>
+      </body>
     </>
   );
 };

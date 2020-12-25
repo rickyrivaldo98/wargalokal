@@ -5,7 +5,7 @@
 }
 
 .scroll .page-header {
-  background: var(--green);
+  background: #181c28;
 }
 
 .page-header {
@@ -130,6 +130,7 @@ button:hover {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
 }
 
 .col-program {
@@ -144,4 +145,62 @@ button:hover {
 
 .footer {
   background-color: #181c28;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-program {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center !important;
+    padding-right: 0px;
+  }
+  .bg-program .row {
+    margin-right: 0px;
+  }
+  .text-header {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .tagline {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .cta {
+    font-size: 20px;
+    margin-left: 15%;
+  }
+
+  .text-header4 {
+    font-size: 50px;
+    margin-left: 20%;
+  }
+
+  .text-header2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .text-header3 {
+    font-size: 30px;
+  }
+
+  .konten1-detail {
+    margin-left: 0;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .konten2-detail {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .konten3-detail {
+    margin-left: 20%;
+    margin-top: 2%;
+  }
 }

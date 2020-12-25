@@ -6,11 +6,14 @@ const Konten1 = () => {
         <div className="container-fluid container-fluid-max">
           <div className="row">
             <div className="col-12 col-md-8 col-lg-7 col-xl-7">
-              <h1 className="text-white text-header text-dark">
+              <h1
+                data-aos="fade-right"
+                className="text-white text-header text-dark"
+              >
                 <strong>Tentang Kami</strong>
               </h1>
               <div className="konten1-detail">
-                <h5>
+                <h5 data-aos="fade-right">
                   Warga Lokal adalah sebuah platform Local Tourism yang
                   bertujuan menjadi wadah penghubung bagi desa-desa di Jawa
                   Tengah dalam pemenuhan kebutuhan dan jaringan kepada pihak
@@ -20,8 +23,9 @@ const Konten1 = () => {
             </div>
             <div className="col-12 col-md-4 col-lg-5 col-xl-5">
               <img
+                data-aos="fade-left"
                 src="https://dummyimage.com/vga"
-                class="rounded mx-auto d-block"
+                className="rounded mx-auto d-block"
                 style={{ width: "50%" }}
               />
             </div>

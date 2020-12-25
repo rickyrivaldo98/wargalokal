@@ -17,11 +17,11 @@ const Konten2 = () => {
         <div className="container-fluid container-fluid-max">
           <div className="row">
             <div className="col-12 col-md-8 col-lg-6 col-xl-6 ml-auto">
-              <h1 className="text-white text-header2">
+              <h1 data-aos="fade-right" className="text-white text-header2">
                 <strong>Connecting The Dots</strong>
               </h1>
               <div className="konten2-detail">
-                <h5 className="text-white">
+                <h5 data-aos="fade-right" className="text-white">
                   Warga Lokal memiliki peran sebagai pengisi dari adanya
                   kekosongan peran antara social capital dan economic capital
                   untuk mewujudkan Desa Mandiri.
