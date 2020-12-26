@@ -14,10 +14,8 @@ const Konten1 = () => {
               </h1>
               <div className="konten1-detail">
                 <h5 data-aos="fade-right">
-                  Warga Lokal adalah sebuah platform Local Tourism yang
-                  bertujuan menjadi wadah penghubung bagi desa-desa di Jawa
-                  Tengah dalam pemenuhan kebutuhan dan jaringan kepada pihak
-                  luar.
+                  WargaLokal merupakan social network platform untuk
+                  menjembatani Desa dengan jejaring sosial mereka.
                 </h5>
               </div>
             </div>
